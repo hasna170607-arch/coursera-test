@@ -1,0 +1,30 @@
+/* ============ Mobile dropdown menu ============ */
+/* Make the mobile menu clearly distinct from the rest of the page,
+   and force it to span the full width of the browser window */
+.navbar-collapse.visible-xs {
+  width: 100%;
+  background-color: #2c3e50;
+}
+
+.navbar-collapse.visible-xs .nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-collapse.visible-xs .nav > li > a:hover,
+.navbar-collapse.visible-xs .nav > li > a:focus {
+  background-color: #1a242f;
+  color: #ffffff;
+}
+
+/* ============ Page heading ============ */
+h1.text-center {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* ============ Required tall section ============ */
+.tall-section {
+  min-height: 1000px;
+  background-color: #d6d6d6;
+  padding: 20px;
+}
